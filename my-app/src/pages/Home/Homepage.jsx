@@ -12,7 +12,7 @@ const Homepage = () => {
      if(!user.token){
         router.push("/login")
      }
-    },[])
+    },[router])
     return (
         <div className={styles.home_cont}>
             <div className={styles.banner_div}>
