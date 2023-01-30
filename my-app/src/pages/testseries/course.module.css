@@ -1,0 +1,162 @@
+
+
+.course_main{
+    width: 100%;
+    height: auto;
+    /* border: 5px solid white; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 50px 0px;
+}
+
+
+
+.bnr{
+    width: 80%;
+    background-color: black;
+    border-radius: 35px;
+    margin-top: 50px;
+}
+
+.bnr_img{
+    width: 100%;
+}
+
+.containor{
+    width: 80%;
+    height: max-content;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;align-items: center;
+    /* border: 1px solid black; */
+    padding: 10px 0px;
+    border-radius: 35px;
+    gap: 25px;
+}
+
+.filter{
+    width: 90%;
+    margin: auto;
+    height: max-content;
+    display: flex;
+    justify-content: ce;
+    gap: 25px;
+    flex-wrap: wrap;
+    align-items: center;
+    /* border: 5px solid blue; */
+}
+
+.courses{
+    width: 100%;
+    height: max-content;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+    gap: 25px;
+    padding: 15px;
+}
+
+
+
+.cards{
+    width: auto;
+    margin: auto;
+    height: max-content;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 25px;
+    /* border: 1px solid blue; */
+    padding-bottom: 15px;
+    border-radius: 30px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    transition: 0.5s;
+
+}
+
+.cards:hover{
+    transform: scale(1.09);
+}
+
+.courseImg{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.courseImg img{
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+
+}
+
+.desc{
+    width: 80%;
+    margin: auto;
+display: flex;
+font-size: 13px;
+flex-direction: column;
+    justify-content: space-evenly;
+    text-align: left;
+}
+
+.btn{
+    width: 80%;
+    margin: auto;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: space-evenly;
+    gap:20px;
+}
+
+.btn button:nth-child(1){
+ 
+    background-color: blue;
+    color: white;
+    font-size: 14px;
+}
+
+
+
+.btn button:nth-child(2){
+    color: white;
+    background-color: green;
+    font-size: 14px;
+
+}
+
+
+@media all and (min-width: 480px) and (max-width: 900px) {
+    
+
+    .bnr{
+        width: 90%;
+    }
+
+    .courses{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+
+}
+
+@media all and (min-width: 320px) and (max-width: 480px) {
+    .courses{
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .bnr{
+        width: 95%;
+    }
+
+}
+
+

@@ -1,0 +1,39 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@chakra-ui/icons": "^2.0.17",
+    "@chakra-ui/react": "^2.4.9",
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@next/font": "13.1.5",
+    "@reduxjs/toolkit": "^1.9.2",
+    "aos": "^2.3.4",
+    "axios": "^1.2.5",
+    "bcrypt": "^5.1.0",
+    "cookie-parser": "^1.4.6",
+    "eslint": "8.32.0",
+    "eslint-config-next": "13.1.5",
+    "framer-motion": "^8.5.4",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.9.0",
+    "next": "13.1.5",
+    "next-persist": "^1.2.4",
+    "next-redux-wrapper": "^8.1.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-redux": "^8.0.5",
+    "react-slick": "^0.29.0",
+    "redux": "^4.2.1",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-thunk": "^2.4.2",
+    "slick-carousel": "^1.8.1"
+  }
+}
