@@ -2,7 +2,6 @@ import React,{useEffect} from 'react'
 import styles from "./homepage.module.css"
 import { useSelector } from 'react-redux'
 import { useRouter } from 'next/navigation';
-import Image from "next/image"
 const Homepage = () => {
     const user = useSelector((state) => state.user);
     const router=useRouter();
@@ -23,7 +22,7 @@ const Homepage = () => {
                     </p>
                 </div>
                 <div className={styles.image}>
-                    <Image width="100%" src="https://www.oetpractice.net/images/img/maiva-dashboard1.png" alt="banner" />
+                    <img src="https://www.oetpractice.net/images/img/maiva-dashboard1.png" alt="banner" />
                 </div>
             </div></div>
     )
