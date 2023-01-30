@@ -12,8 +12,7 @@ const Homepage = () => {
      if(!user.token){
         router.push("/login")
      }
-     // eslint-disable-line
-    },[])
+    },[user.token])
     return (
         <div className={styles.home_cont}>
             <div className={styles.banner_div}>
