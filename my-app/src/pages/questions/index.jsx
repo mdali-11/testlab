@@ -17,7 +17,7 @@ let ques = [
 let score=0;
 
 
-const questions = () => {
+const Questions = () => {
 
   const [currentQ, setCurrentQ] = useState(1)
 
@@ -98,4 +98,4 @@ const questions = () => {
   )
 }
 
-export default questions
+export default Questions

@@ -22,7 +22,7 @@ import { useState,useEffect } from 'react';
 import { ViewIcon, ViewOffIcon } from '@chakra-ui/icons';
 import axios from "axios";
 import Link from 'next/link';
-const signup = () => {
+const   Signup = () => {
   const [showPassword, setShowPassword] = useState(false);
   const [showPassword1, setShowPassword1] = useState(false);
   const [fname, setFname] = useState("");
@@ -204,4 +204,4 @@ const signup = () => {
   );
 }
 
-export default signup
+export default Signup
